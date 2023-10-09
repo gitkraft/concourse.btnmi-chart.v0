@@ -24,8 +24,8 @@ Looking to use Concourse in production? Try [VMware Application Catalog](https:/
 
 ## Prerequisites
 
-- Kubernetes 1.19+
-- Helm 3.2.0+
+- Kubernetes 1.23+
+- Helm 3.8.0+
 - PV provisioner support in the underlying infrastructure
 - ReadWriteMany volumes for deployment scaling
 
@@ -82,7 +82,7 @@ The command removes all the Kubernetes components associated with the chart and 
 | ------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
 | `image.registry`                | image registry                                                                                                                         | `docker.io`            |
 | `image.repository`              | image repository                                                                                                                       | `bitnami/concourse`    |
-| `image.tag`                     | image tag (immutable tags are recommended)                                                                                             | `7.10.0-debian-11-r55` |
+| `image.tag`                     | image tag (immutable tags are recommended)                                                                                             | `7.10.0-debian-11-r57` |
 | `image.digest`                  | image digest in the way sha256:aa.... Please note this parameter, if set, will override the tag                                        | `""`                   |
 | `image.pullPolicy`              | image pull policy                                                                                                                      | `IfNotPresent`         |
 | `image.pullSecrets`             | image pull secrets                                                                                                                     | `[]`                   |
