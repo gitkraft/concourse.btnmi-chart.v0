@@ -1,8 +1,21 @@
 # Changelog
 
-## 16.4.16 (2025-03-03)
+## 16.5.2 (2025-03-17)
 
-* [bitnami/postgresql] Release 16.4.16 ([#32250](https://github.com/bitnami/charts/pull/32250))
+* [bitnami/postgresql] Release 16.5.2 ([#32484](https://github.com/bitnami/charts/pull/32484))
+
+## <small>16.5.1 (2025-03-17)</small>
+
+* [bitnami/*] Add tanzuCategory annotation (#32409) ([a8fba5c](https://github.com/bitnami/charts/commit/a8fba5cb01f6f4464ca7f69c50b0fbe97d837a95)), closes [#32409](https://github.com/bitnami/charts/issues/32409)
+* [bitnami/postgresql] Release 16.5.1 (#32482) ([758a0c6](https://github.com/bitnami/charts/commit/758a0c6fe0de62873a475692ed2e12378784e051)), closes [#32482](https://github.com/bitnami/charts/issues/32482)
+
+## 16.5.0 (2025-03-10)
+
+* [bitnami/postgresql] Add secretAnnotation value (#31984) ([7284b3f](https://github.com/bitnami/charts/commit/7284b3f65ac7a209ba65396bbc2f6cc8c188ddec)), closes [#31984](https://github.com/bitnami/charts/issues/31984)
+
+## <small>16.4.16 (2025-03-03)</small>
+
+* [bitnami/postgresql] Release 16.4.16 (#32250) ([353c702](https://github.com/bitnami/charts/commit/353c702d65c42071ba93ae2d01286528fc8a0c9f)), closes [#32250](https://github.com/bitnami/charts/issues/32250)
 
 ## <small>16.4.15 (2025-03-03)</small>
 
